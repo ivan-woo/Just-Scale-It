@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import Shoes from './Shoes';
+import RightRail from './RightSide/RightRail';
 
 class App extends React.Component {
   constructor() {
@@ -24,10 +25,12 @@ class App extends React.Component {
     const { shoes } = this.state;
     return (
       <div id="frontPage">
-        <div className="container">
+        <div className="leftSideContainer">
           <Shoes shoes={shoes} />
         </div>
-        <div className="container2" />
+        <div className="rightSideContainer">
+          <RightRail />
+        </div>
       </div>
     );
   }
