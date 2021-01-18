@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#appFrontPage {
+  display: block;
+}
+
+#frontPage {
+  display: flex;
+}
+
+.leftSideContainer {
+  box-sizing: border-box;
+  display: block;
+  margin-top: 44px;
+  padding-left: 44px;
+  padding-right: 48px;
+  flex: 3 1 0%;
+}
+
+.rightSideContainer {
+  flex: 1 1 0%;
+  box-sizing: border-box;
+  display: block;
+  margin-top: 48px;
+  margin-right: 7px;
+  padding-right: 48px;
+  padding-left: 24px;
+  padding-top: 4px;
+}
+
+.shoeView {
+  padding-left: 8px;
+  padding-right: 4px;
+  margin-bottom: 12px;
+  border: none;
+  background: transparent;
+  display: inline-block;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
+.shoeView img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#shoeTitle {
+  margin-bottom: 8px;
+  display: flex;
+}
+
+h2 {
+  font-family: "Helvetica Neue";
+  font-weight: 450;
+  display: inline-block;
+  margin-block-start: 0.4em;
+  margin-block-end: 0.67em;
+  margin-inline-start: -3px;
+  margin-inline-end: 0px;
+  font-size: 21px;
+  max-width: 65%;
+}
+
+h1 {
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.007em;
+  margin-inline-start: -3px;
+  font-size: 36px;
+  display: block;
+}
+
+.productName {
+  flex: 3 1 80%;
+}
+
+.productPrice {
+  text-align: right;
+  flex: 1 0 auto;
+  margin-top: 22px;
+}
+
+.textPrice {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.exit {
+  position: fixed;
+  background: 0px 0px;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+  padding: 70px;
+  border: none;
+  font-size: 23px;
+  font-family: Arial;
+}
+
+.shoeModal {
+  width: 99%;
+  padding: 8px;
+}
+
+.modal {
+  position: fixed;
+  overflow: scroll;
+  inset: 0px;
+  padding: 40px 0 40px 0;
+}
+
+/* .productTitle {
+  font-family: "Helvetica Neue";
+  display: flex;
+  width: 377px;
+  box-sizing: border-box;
+  margin-right: 7px;
+  padding-right: 48px;
+  padding-left: 24px;
+  padding-top: 4px;
+  margin-top: 48px;
+}
+
+.category {
+  font-weight: 500;
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+ */
