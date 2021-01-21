@@ -14,16 +14,6 @@ app.use(morgan('dev'));
 
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
-app.get('/api/shoes', (req, res) => {
-  helper.getShoes()
-    .then((results) => {
-      res.status(200).json(results);
-    })
-    .catch((err) => {
-      res.status(400).send(err);
-    });
-});
-
 app.get('/shoes', (req, res) => {
   db.find()
     .then((results) => {

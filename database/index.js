@@ -9,13 +9,9 @@ mongoose
   });
 const shoePictures = new Schema({
   colorway: String,
-  name: String,
-  retailPrice: Number,
-  title: String,
-  media: {
-    imageUrl: String,
-    smallImageUrl: String,
-  },
+  media: [],
+  sizes: [],
+  stock: [],
 });
 
 const Shoes = mongoose.model('ShoePictures', shoePictures);

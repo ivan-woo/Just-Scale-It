@@ -1,51 +1,99 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+body, html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 body {
-	line-height: 1;
+  font-size: inherit;
+  line-height: inherit;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #111;
+  background-color: #fff;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, img, menu, nav, section {
+  display: block;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+a {
+  color: #111;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+div {
+  display: block;
+}
+li {
+    text-align: -webkit-match-parent;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+button {
+    appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+.z3 {
+  z-index: 3;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.z4 {
+  z-index: 4;
 }
+::-webkit-input-placeholder { /* Edge */
+  color:#d1d1d1;
+}
+:-ms-input-placeholder { /* Internet Explorer */
+  color:#d1d1d1;
+}
+::placeholder {
+  color:#d1d1d1;
+}
+:after, :before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  }
 
 #appFrontPage {
   display: block;
@@ -56,58 +104,60 @@ table {
 }
 
 .leftSideContainer {
-  box-sizing: border-box;
-  display: block;
-  margin-top: 44px;
-  padding-left: 44px;
-  padding-right: 48px;
-  flex: 3 1 0%;
+  flex: 3;
 }
 
 .rightSideContainer {
-  flex: 1 1 0%;
-  box-sizing: border-box;
-  display: block;
-  margin-top: 48px;
-  margin-right: 7px;
-  padding-right: 48px;
-  padding-left: 24px;
-  padding-top: 4px;
+  flex: 1;
+}
+
+.shoePics {
+  cursor: pointer;
+  margin-right: 35px;
+  display: table;
 }
 
 .shoeView {
-  padding-left: 8px;
-  padding-right: 4px;
-  margin-bottom: 12px;
+  padding-right: 10px;
+  margin-bottom: 13px;
   border: none;
   background: transparent;
-  display: inline-block;
   width: 50%;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden
+  overflow: hidden;
+  cursor: pointer;
+  display: inline-block;
+  padding: 1px 8px;
 }
 
-.shoeView img {
-  flex-shrink: 0;
-  min-width: 100%;
-  min-height: 100%;
+.pic {
+  max-width: 100%;
+}
+
+.rightWrapper {
+  box-sizing: border-box;
+  display: block;
+  margin-top: 57px;
+  margin-right: 7px;
+  padding-right: 60px;
+  padding-top: 4px;
+  height: 100%;
 }
 
 #shoeTitle {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   display: flex;
+  width: 100%;
 }
 
 h2 {
   font-family: "Helvetica Neue";
-  font-weight: 450;
+  font-weight: 500;
   display: inline-block;
   margin-block-start: 0.4em;
   margin-block-end: 0.67em;
   margin-inline-start: -3px;
   margin-inline-end: 0px;
-  font-size: 21px;
+  font-size: 22px;
   max-width: 65%;
 }
 
@@ -122,18 +172,21 @@ h1 {
 }
 
 .productName {
-  flex: 3 1 80%;
+  flex: 3 1 0%;
 }
 
 .productPrice {
   text-align: right;
   flex: 1 0 auto;
-  margin-top: 22px;
+  margin-top: 20px;
 }
 
 .textPrice {
   font-weight: 500;
   font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: -4px;
+  font-family: "Helvetica Neue";
 }
 
 .exit {
@@ -142,39 +195,148 @@ h1 {
   top: 0px;
   right: 0px;
   cursor: pointer;
-  padding: 70px;
+  padding: 50px;
   border: none;
   font-size: 23px;
   font-family: Arial;
 }
 
 .shoeModal {
-  width: 99%;
+  width: 100%;
   padding: 8px;
 }
 
 .modal {
   position: fixed;
-  overflow: scroll;
+  overflow-y: scroll;
   inset: 0px;
-  padding: 40px 0 40px 0;
+  padding: 60px 0 60px 0;
 }
 
-/* .productTitle {
-  font-family: "Helvetica Neue";
+.modalSpan {
+  scroll-margin-top: -700px;
+}
+
+.colorways {
+  position: relative;
+  margin-left: 0px;
+  padding-right: 4px;
+  white-space: normal;
   display: flex;
-  width: 377px;
-  box-sizing: border-box;
-  margin-right: 7px;
-  padding-right: 48px;
-  padding-left: 24px;
-  padding-top: 4px;
-  margin-top: 48px;
+  overflow: hidden;
 }
 
-.category {
+.colorwayWrapper {
+  flex: 1 1 0%;
+  position: relative;
+  display: table-cell;
+}
+
+.colorwayPhotos {
+  min-width: 95px;
+  max-width: 100px;
+  max-height: 95px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.colorwayPhotos:hover {
+  border: 1px solid black;
+}
+
+.sizesForm {
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+
+.selectSize {
+  text-align: left;
   font-weight: 500;
-  padding-bottom: 8px;
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: "Helvetica Neue";
+}
+
+.sizeGuide {
+  color: #757575;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: "Helvetica Neue";
+  text-align: left;
+  float: right;
+
+}
+
+.sizesContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 7px;
+}
+
+.sizeLabels {
+  background: rgb(255, 255, 255);
+  color: rgb(17, 17, 17);
+  box-shadow: rgb(229, 229, 229) 0px 0px 0px 1px;
+  border-radius: 4px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 70px;
+  border-radius: 4px;
   font-size: 16px;
+  line-height: 1.75;
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .mt11-lg {
+      margin-top: 48px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .pr12-lg {
+      padding-right: 69px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .pl11-lg {
+      padding-left: 63px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .ml1-lg {
+      margin-left: 4px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .d-lg-ib {
+      display: inline-block;
+  }
+}
+
+/*
+.shoeView {
+  padding-left: 8px;
+  padding-right: 4px;
+  margin-bottom: 12px;
+  border: none;
+  background: transparent;
+  display: inline-block;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.pic {
+  object-fit: contian;
+  display: block;
 }
  */

@@ -2,14 +2,14 @@
 import React from 'react';
 
 const Modal = (props) => {
-  const { shoes, handleModalView } = props;
+  const { currShoe, handleModalView } = props;
   return (
     <div className="modal">
       <button onClick={handleModalView} className="exit">X</button>
-      {shoes.map((shoe) => {
+      {currShoe.media.map((picture, i) => {
         return (
-          <span>
-            <img src={shoe.media.imageUrl} alt="shoe pic" key={shoe._id} className="shoeModal" />
+          <span id={`section-${i}`} className="modalSpan" >
+            <img src={picture} alt="shoe pic" key={currShoe._id} className="shoeModal" />
           </span>
         )
       })}

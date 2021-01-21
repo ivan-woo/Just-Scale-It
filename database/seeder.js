@@ -1,13 +1,10 @@
-const helper = require('../apiHelper.js');
+const seedData = require('../exampleData.js');
+const db = require('.');
 
 const seederFunction = () => {
-  helper.getShoes()
-    .then(() => {
-      console.log('SEEDED');
-    })
-    .catch((err) => {
-      console.error(err);
-    });
+  seedData.forEach((data) => {
+    db.create(data);
+  });
 };
 
 seederFunction();
