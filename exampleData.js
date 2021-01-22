@@ -14,7 +14,8 @@ module.exports = [
       'https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/13b63968-452a-4bc7-b838-3950cbd05d9b/lebron-18-basketball-shoe-M6DgN2.jpg'
     ],
     'sizes': [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 15, 16, 17, 18],
-    'stock': [0, 0, 0, 0, 0, 0, 4, 8, 12, 3, 7, 6, 5, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    'stock': [0, 0, 0, 0, 0, 0, 4, 8, 12, 3, 7, 6, 5, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    'favorite': false,
   },
   {
     'colorway': 'Multi-Color/Black/Chlorine Blue',
@@ -29,7 +30,8 @@ module.exports = [
       'https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/344c3059-0a58-4607-b450-769bc17a4816/lebron-18-basketball-shoe-M6DgN2.jpg'
     ],
     'sizes': [8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 15, 16, 17, 18],
-    'stock': [4, 8, 12, 3, 7, 6, 5, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11]
+    'stock': [4, 8, 12, 3, 7, 6, 5, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11],
+    'favorite': false,
   },
   {
     'colorway': 'Black/University Red/White',
@@ -45,7 +47,8 @@ module.exports = [
       'https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/91f4e7a8-9289-40c2-bbd0-26ccb4502cd5/lebron-18-basketball-shoe-M6DgN2.jpg'
     ],
     'sizes': [8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 14, 15],
-    'stock': [4, 0, 0, 3, 7, 0, 5, 10, 0, 0, 0, 0, 0]
+    'stock': [4, 0, 0, 3, 7, 0, 5, 10, 0, 0, 0, 0, 0],
+    'favorite': false,
   },
   {
     'colorway': 'Black/Court Purple/White/Metallic Gold',
@@ -61,6 +64,7 @@ module.exports = [
       'https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/ecbf4f89-f824-4442-af5a-cb8d5275822a/lebron-18-basketball-shoe-M6DgN2.jpg'
     ],
     'sizes': [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 15, 16, 17, 18],
-    'stock': [7, 7, 7, 7, 7, 0, 0, 8, 12, 3, 7, 6, 0, 0, 0, 0, 0, 0, 6, 0, 0, 5, 6]
+    'stock': [7, 7, 7, 7, 7, 0, 0, 8, 12, 3, 7, 6, 0, 0, 0, 0, 0, 0, 6, 0, 0, 5, 6],
+    'favorite': false,
   }
 ];

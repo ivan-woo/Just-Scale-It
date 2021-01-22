@@ -8,7 +8,7 @@ const Modal = (props) => {
       <button onClick={handleModalView} className="exit">X</button>
       {currShoe.media.map((picture, i) => {
         return (
-          <span id={`section-${i}`} className="modalSpan" >
+          <span id={`section-${i}`} className="modalSpan" key={i}>
             <img src={picture} alt="shoe pic" key={currShoe._id} className="shoeModal" />
           </span>
         )

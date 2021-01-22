@@ -5,8 +5,7 @@ import ColorWays from './ColorWays.jsx';
 import Sizes from './Sizes.jsx';
 
 const RightRail = (props) => {
-  const { shoes, changeColorWay, currShoe, sizes } = props;
-  console.log(currShoe);
+  const { shoes, changeColorWay, currShoe, sizes, stock, selectSize, selectedSize, selectedStock, onAddButton, addButtonClicked, favorited, onFavoriteButton } = props;
   return (
     <div className="rightWrapper">
       <div id="shoeTitle">
@@ -21,7 +20,7 @@ const RightRail = (props) => {
         </div>
       </div>
       <ColorWays shoes={shoes} currShoe={currShoe} changeColorWay={changeColorWay} />
-      <Sizes sizes={sizes} />
+      <Sizes currShoe={currShoe} sizes={sizes} stock={stock} selectSize={selectSize} selectedSize={selectedSize} selectedStock={selectedStock} onAddButton={onAddButton} addButtonClicked={addButtonClicked} favorited={favorited} onFavoriteButton={onFavoriteButton} />
     </div>
   );
 };
