@@ -3,9 +3,10 @@
 import React from 'react';
 import ColorWays from './ColorWays.jsx';
 import Sizes from './Sizes.jsx';
+import ProductDetails from './ProductDetails.jsx';
 
 const RightRail = (props) => {
-  const { shoes, changeColorWay, currShoe, sizes, stock, selectSize, selectedSize, selectedStock, onAddButton, addButtonClicked, favorited, onFavoriteButton } = props;
+  const { shoes, changeColorWay, currShoe, sizes, stock, selectSize, selectedSize, selectedStock, onAddButton, addButtonClicked, favorited, onFavoriteButton, handleDetailsModalView, showDetailsModal } = props;
   return (
     <div className="rightWrapper">
       <div id="shoeTitle">
@@ -21,6 +22,7 @@ const RightRail = (props) => {
       </div>
       <ColorWays shoes={shoes} currShoe={currShoe} changeColorWay={changeColorWay} />
       <Sizes currShoe={currShoe} sizes={sizes} stock={stock} selectSize={selectSize} selectedSize={selectedSize} selectedStock={selectedStock} onAddButton={onAddButton} addButtonClicked={addButtonClicked} favorited={favorited} onFavoriteButton={onFavoriteButton} />
+      <ProductDetails currShoe={currShoe} handleDetailsModalView={handleDetailsModalView} />
     </div>
   );
 };

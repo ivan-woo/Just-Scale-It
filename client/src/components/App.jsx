@@ -4,20 +4,24 @@ import axios from 'axios';
 import Shoes from './Shoes';
 import RightRail from './RightSide/RightRail';
 import Modal from './Modal';
+import DetailsModal from './RightSide/DetailsModal.jsx';
 
 class App extends React.Component {
   constructor() {
     super();
     this.state = {
       shoes: [],
-      showModal: false,
+      showShoeModal: false,
+      showDetailsModal: false,
       currShoe: {},
       selectedSize: '',
       selectedStock: '',
       addButtonClicked: false,
-      favorited: currShoe.favorite,
+      favorited: '',
     };
-    this.handleModalView = this.handleModalView.bind(this);
+
+    this.handleDetailsModalView = this.handleDetailsModalView.bind(this);
+    this.handleShoeModalView = this.handleShoeModalView.bind(this);
     this.changeColorWay = this.changeColorWay.bind(this);
     this.selectSize = this.selectSize.bind(this);
     this.onAddButton = this.onAddButton.bind(this);
@@ -34,9 +38,15 @@ class App extends React.Component {
       });
   }
 
-  handleModalView() {
-    const { showModal } = this.state;
-    this.setState({ showModal: !showModal });
+  handleDetailsModalView(e) {
+    e.preventDefault();
+    const { showDetailsModal } = this.state;
+    this.setState({ showDetailsModal: !showDetailsModal })
+  }
+
+  handleShoeModalView() {
+    const { showShoeModal } = this.state;
+    this.setState({ showShoeModal: !showShoeModal });
   }
 
   changeColorWay(i) {
@@ -47,7 +57,6 @@ class App extends React.Component {
   }
 
   selectSize(i) {
-    e.preventDefault();
     const { currShoe, addButtonClicked } = this.state;
     this.setState({ selectedSize: currShoe.sizes[i], selectedStock: currShoe.stock[i], addButtonClicked: false })
   }
@@ -61,26 +70,26 @@ class App extends React.Component {
   onFavoriteButton(e) {
     e.preventDefault();
     const { currShoe, favorited } = this.state;
-    this.setState({ favorited: !currShoe.favorite }, () => {
-      currShoe.favorite = favorited;
-    })
+    currShoe.favorite = !currShoe.favorite;
+    this.setState({ favorited: currShoe.favorite })
   }
 
   render() {
-    const { shoes, showModal, currShoe, selectedSize, selectedStock, addButtonClicked, favorited } = this.state;
-    if (showModal) {
+    const { shoes, showShoeModal, currShoe, selectedSize, selectedStock, addButtonClicked, favorited, showDetailsModal } = this.state;
+    if (showShoeModal) {
       return (
-        <Modal currShoe={currShoe} handleModalView={this.handleModalView} />
+        <Modal currShoe={currShoe} handleShoeModalView={this.handleShoeModalView} />
       );
     }
     return (
       <div id="frontPage">
         <div className="leftSideContainer css-l8ohx9">
-          <Shoes currShoe={currShoe.media} handleModalView={this.handleModalView} />
+          <Shoes currShoe={currShoe.media} handleShoeModalView={this.handleShoeModalView} />
         </div>
         <div className="rightSideContainer">
-          <RightRail shoes={shoes} currShoe={currShoe} sizes={currShoe.sizes} stock={currShoe.stock} changeColorWay={this.changeColorWay} selectSize={this.selectSize} selectedSize={selectedSize} selectedStock={selectedStock} onAddButton={this.onAddButton} addButtonClicked={addButtonClicked} favorited={favorited} onFavoriteButton={this.onFavoriteButton}/>
+          <RightRail shoes={shoes} currShoe={currShoe} sizes={currShoe.sizes} stock={currShoe.stock} changeColorWay={this.changeColorWay} selectSize={this.selectSize} selectedSize={selectedSize} selectedStock={selectedStock} onAddButton={this.onAddButton} addButtonClicked={addButtonClicked} favorited={favorited} onFavoriteButton={this.onFavoriteButton} handleDetailsModalView={this.handleDetailsModalView} showDetailsModal={showDetailsModal} />
         </div>
+        {showDetailsModal ? <DetailsModal currShoe={currShoe} handleDetailsModalView={this.handleDetailsModalView} /> : null}
       </div>
     );
   }

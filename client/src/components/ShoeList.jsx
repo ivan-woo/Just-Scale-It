@@ -2,9 +2,9 @@
 import React from 'react';
 
 const ShoeList = (props) => {
-  const { picture, handleModalView, index } = props;
+  const { picture, handleShoeModalView, index } = props;
   return (
-    <a href={`#section-${index}`} onClick={handleModalView} className="shoeView">
+    <a href={`#section-${index}`} onClick={handleShoeModalView} className="shoeView">
       <img src={picture} alt="shoepic" className="pic"/>
     </a>
   );

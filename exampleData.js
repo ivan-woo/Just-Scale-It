@@ -16,9 +16,28 @@ module.exports = [
     'sizes': [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 15, 16, 17, 18],
     'stock': [0, 0, 0, 0, 0, 0, 4, 8, 12, 3, 7, 6, 5, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     'favorite': false,
+    'details':
+    `THE EVOLUTION OF FORCE.
+When LeBron accelerates down the court, he produces tremendous force. The LeBron 18 is designed to harness his abilities while helping with the stress he puts on his body. Combined cushioning underfoot allows him to use his power for unstoppable bursts of speed.
+Power On the Court
+Max Air provides impact cushioning under the heel. A molded TPU heel counter helps stabilize the foot while you generate force on the court.
+Generate Speed
+A full-length Zoom Air unit is nestled within the Max Air under the heel and extends into the forefoot. The high-volume unit helps provide energy return that's fine-tuned for speed.
+Lace Up, Lock In
+KnitPosite 2.0 is lightweight and breathable, with knit-in stretch for a secure fit. Laces feed through tunnels engineered into the knit, helping anchor you down without extra weight.
+Air Tongue System
+Air units embedded in the tongue provide padding over the top of your foot.
+Grid Traction
+The grid-like pattern on the outsole provides grippy traction in multiple directions. The diamond-shaped cutouts help reduce weight and expose the cushioning inside.
+More Benefits
+"From the city of Akron, Ohio" molded into left midsole, "Established Nineteen Eighty Four" in right midsole.
+Molded, padded collar fits snugly around the ankle.
+Shown: Black/Multi-Color/White
+Style: CQ9283-002`,
+    'style': 'CQ9283-002'
   },
   {
-    'colorway': 'Multi-Color/Black/Chlorine Blue',
+    'colorway': 'Multi-Color/Chlorine Blue',
     'media': [
       'https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/83cccc62-227c-4b28-aaa6-dd9b02f11cee/lebron-18-basketball-shoe-M6DgN2.jpg',
       'https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/4923c986-cf87-4da8-ab10-58ed26013130/lebron-18-basketball-shoe-M6DgN2.jpg',
@@ -32,6 +51,25 @@ module.exports = [
     'sizes': [8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 15, 16, 17, 18],
     'stock': [4, 8, 12, 3, 7, 6, 5, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11],
     'favorite': false,
+    'details':
+    `THE EVOLUTION OF FORCE.
+When LeBron accelerates down the court, he produces tremendous force. The LeBron 18 is designed to harness his abilities while helping with the stress he puts on his body. Combined cushioning underfoot allows him to use his power for unstoppable bursts of speed.
+Power On the Court
+Max Air provides impact cushioning under the heel. A molded TPU heel counter helps stabilize the foot while you generate force on the court.
+Generate Speed
+A full-length Zoom Air unit is nestled within the Max Air under the heel and extends into the forefoot. The high-volume unit helps provide energy return that's fine-tuned for speed.
+Lace Up, Lock In
+KnitPosite 2.0 is lightweight and breathable, with knit-in stretch for a secure fit. Laces feed through tunnels engineered into the knit, helping anchor you down without extra weight.
+Air Tongue System
+Air units embedded in the tongue provide padding over the top of your foot.
+Grid Traction
+The grid-like pattern on the outsole provides grippy traction in multiple directions. The diamond-shaped cutouts help reduce weight and expose the cushioning inside.
+More Benefits
+"From the city of Akron, Ohio" molded into left midsole, "Established Nineteen Eighty Four" in right midsole.
+Molded, padded collar fits snugly around the ankle.
+Shown: Black/Multi-Color/White
+Style: CQ9283-900`,
+    'style': 'CQ9283-900',
   },
   {
     'colorway': 'Black/University Red/White',
@@ -49,6 +87,25 @@ module.exports = [
     'sizes': [8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 14, 15],
     'stock': [4, 0, 0, 3, 7, 0, 5, 10, 0, 0, 0, 0, 0],
     'favorite': false,
+    'details':
+    `THE EVOLUTION OF FORCE.
+When LeBron accelerates down the court, he produces tremendous force. The LeBron 18 is designed to harness his abilities while helping with the stress he puts on his body. Combined cushioning underfoot allows him to use his power for unstoppable bursts of speed.
+Power On the Court
+Max Air provides impact cushioning under the heel. A molded TPU heel counter helps stabilize the foot while you generate force on the court.
+Generate Speed
+A full-length Zoom Air unit is nestled within the Max Air under the heel and extends into the forefoot. The high-volume unit helps provide energy return that's fine-tuned for speed.
+Lace Up, Lock In
+KnitPosite 2.0 is lightweight and breathable, with knit-in stretch for a secure fit. Laces feed through tunnels engineered into the knit, helping anchor you down without extra weight.
+Air Tongue System
+Air units embedded in the tongue provide padding over the top of your foot.
+Grid Traction
+The grid-like pattern on the outsole provides grippy traction in multiple directions. The diamond-shaped cutouts help reduce weight and expose the cushioning inside.
+More Benefits
+"From the city of Akron, Ohio" molded into left midsole, "Established Nineteen Eighty Four" in right midsole.
+Molded, padded collar fits snugly around the ankle.
+Shown: Black/Multi-Color/White
+Style: CQ9283-419`,
+    'style': 'CQ9283-419'
   },
   {
     'colorway': 'Black/Court Purple/White/Metallic Gold',
@@ -66,5 +123,24 @@ module.exports = [
     'sizes': [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 15, 16, 17, 18],
     'stock': [7, 7, 7, 7, 7, 0, 0, 8, 12, 3, 7, 6, 0, 0, 0, 0, 0, 0, 6, 0, 0, 5, 6],
     'favorite': false,
+    'details':
+    `THE EVOLUTION OF FORCE.
+When LeBron accelerates down the court, he produces tremendous force. The LeBron 18 is designed to harness his abilities while helping with the stress he puts on his body. Combined cushioning underfoot allows him to use his power for unstoppable bursts of speed.
+Power On the Court
+Max Air provides impact cushioning under the heel. A molded TPU heel counter helps stabilize the foot while you generate force on the court.
+Generate Speed
+A full-length Zoom Air unit is nestled within the Max Air under the heel and extends into the forefoot. The high-volume unit helps provide energy return that's fine-tuned for speed.
+Lace Up, Lock In
+KnitPosite 2.0 is lightweight and breathable, with knit-in stretch for a secure fit. Laces feed through tunnels engineered into the knit, helping anchor you down without extra weight.
+Air Tongue System
+Air units embedded in the tongue provide padding over the top of your foot.
+Grid Traction
+The grid-like pattern on the outsole provides grippy traction in multiple directions. The diamond-shaped cutouts help reduce weight and expose the cushioning inside.
+More Benefits
+"From the city of Akron, Ohio" molded into left midsole, "Established Nineteen Eighty Four" in right midsole.
+Molded, padded collar fits snugly around the ankle.
+Shown: Black/Multi-Color/White
+Style: CQ9283-004`,
+    'style': 'CQ9283-004'
   }
 ];
