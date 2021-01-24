@@ -18,6 +18,7 @@ class App extends React.Component {
       selectedStock: '',
       addButtonClicked: false,
       favorited: '',
+      modalStyle: false,
     };
 
     this.handleDetailsModalView = this.handleDetailsModalView.bind(this);
@@ -40,8 +41,8 @@ class App extends React.Component {
 
   handleDetailsModalView(e) {
     e.preventDefault();
-    const { showDetailsModal } = this.state;
-    this.setState({ showDetailsModal: !showDetailsModal })
+    const { showDetailsModal, modalStyle } = this.state;
+    this.setState({ showDetailsModal: !showDetailsModal, modalStyle: true })
   }
 
   handleShoeModalView() {
@@ -75,7 +76,7 @@ class App extends React.Component {
   }
 
   render() {
-    const { shoes, showShoeModal, currShoe, selectedSize, selectedStock, addButtonClicked, favorited, showDetailsModal } = this.state;
+    const { shoes, showShoeModal, currShoe, selectedSize, selectedStock, addButtonClicked, favorited, showDetailsModal, modalStyle } = this.state;
     if (showShoeModal) {
       return (
         <Modal currShoe={currShoe} handleShoeModalView={this.handleShoeModalView} />
@@ -89,7 +90,7 @@ class App extends React.Component {
         <div className="rightSideContainer">
           <RightRail shoes={shoes} currShoe={currShoe} sizes={currShoe.sizes} stock={currShoe.stock} changeColorWay={this.changeColorWay} selectSize={this.selectSize} selectedSize={selectedSize} selectedStock={selectedStock} onAddButton={this.onAddButton} addButtonClicked={addButtonClicked} favorited={favorited} onFavoriteButton={this.onFavoriteButton} handleDetailsModalView={this.handleDetailsModalView} showDetailsModal={showDetailsModal} />
         </div>
-        {showDetailsModal ? <DetailsModal currShoe={currShoe} handleDetailsModalView={this.handleDetailsModalView} /> : null}
+        {showDetailsModal ? <DetailsModal currShoe={currShoe} modalStyle={modalStyle} handleDetailsModalView={this.handleDetailsModalView} /> : null}
       </div>
     );
   }

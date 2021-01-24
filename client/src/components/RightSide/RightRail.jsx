@@ -11,8 +11,8 @@ const RightRail = (props) => {
     <div className="rightWrapper">
       <div id="shoeTitle">
         <div className="productName">
-          <h2>Basketball Shoe</h2>
-          <h1>LeBron 18</h1>
+          <h2 className="frontPageH2">Basketball Shoe</h2>
+          <h1 className="frontPageH1">LeBron 18</h1>
         </div>
         <div className="productPrice">
           <div className="textPrice">
