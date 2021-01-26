@@ -37,20 +37,9 @@ a {
   font-weight: 500;
   text-decoration: none;
 }
-a:-webkit-any-link {
-  color: -webkit-link;
-  cursor: pointer;
-  text-decoration: underline;
-}
-div {
-  display: block;
-}
 li {
     text-align: -webkit-match-parent;
 }
-/* ol, ul {
-    list-style: none;
-} */
 button {
     -webkit-writing-mode: horizontal-tb !important;
     align-items: flex-start;

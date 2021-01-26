@@ -1,4 +1,8 @@
 # FrontPageMedia---Trent
 Steps:
-  1. node database/seeder.js
-  2. npm run start
+  1. npm install
+  2. node database/seeder.js
+  3. npm run start
+
+Endpoints:
+  1. /api/shoes
