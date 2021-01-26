@@ -3,9 +3,8 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const path = require('path');
 const db = require('../database');
-const helper = require('../apiHelper');
 
-const PORT = 3419;
+const PORT = 3002;
 
 const app = express();
 
@@ -14,7 +13,7 @@ app.use(morgan('dev'));
 
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
-app.get('/shoes', (req, res) => {
+app.get('/api/shoes', (req, res) => {
   db.find()
     .then((results) => {
       res.status(200).json(results);

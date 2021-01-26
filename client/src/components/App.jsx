@@ -30,7 +30,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('/shoes')
+    axios.get('/api/shoes')
       .then((results) => {
         this.setState({ shoes: results.data, currShoe: results.data[0] });
       })

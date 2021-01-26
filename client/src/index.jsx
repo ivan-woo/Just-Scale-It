@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
+import '../dist/styles.css';
 
-ReactDOM.render(<App />, document.getElementById('appFrontPage'));
+ReactDOM.render(<App />, document.getElementById('service2'));
