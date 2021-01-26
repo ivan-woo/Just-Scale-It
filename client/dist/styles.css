@@ -1,88 +1,7 @@
-body, html {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-body {
-  font-size: inherit;
-  line-height: inherit;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: #111;
-  background-color: #fff;
-}
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, img, menu, nav, section {
-  display: block;
-}
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-a {
-  color: #111;
-  cursor: pointer;
-  font-weight: 500;
-  text-decoration: none;
-}
-li {
-    text-align: -webkit-match-parent;
-}
-button {
-    -webkit-writing-mode: horizontal-tb !important;
-    align-items: flex-start;
-    appearance: button;
-    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
-    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-    border-image: initial;
-    border-style: outset;
-    border-width: 2px;
-    box-sizing: border-box;
-    color: -internal-light-dark(black, white);
-    cursor: default;
-    display: inline-block;
-    font: 400 13.3333px Arial;
-    letter-spacing: normal;
-    margin: 0em;
-    padding: 1px 6px;
-    text-align: center;
-    text-indent: 0px;
-    text-rendering: auto;
-    text-shadow: none;
-    text-transform: none;
-    word-spacing: normal;
-}
-.z3 {
-  z-index: 3;
-}
-.z4 {
-  z-index: 4;
-}
-::-webkit-input-placeholder { /* Edge */
-  color:#d1d1d1;
-}
-:-ms-input-placeholder { /* Internet Explorer */
-  color:#d1d1d1;
-}
-::placeholder {
-  color:#d1d1d1;
-}
-:after, :before {
-  box-sizing: inherit;
-  -webkit-box-sizing: inherit;
-  }
 
 #appFrontPage {
   display: block;
@@ -111,7 +30,6 @@ button {
 .highlyRated {
   cursor: default;
   font-weight: 500;
-  z-index: 2;
   height: 50px;
   font-family: "Helvetica Neue";
   font-size: 20px;
@@ -169,6 +87,7 @@ button {
   overflow: auto;
   padding: 60px 0 60px 0;
   position: fixed;
+  z-index: 1000;
 }
 
 .modalSpan {
