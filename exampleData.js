@@ -29,8 +29,9 @@ Air Tongue System
 Air units embedded in the tongue provide padding over the top of your foot.
 Grid Traction
 The grid-like pattern on the outsole provides grippy traction in multiple directions. The diamond-shaped cutouts help reduce weight and expose the cushioning inside.
-More Benefits
-"From the city of Akron, Ohio" molded into left midsole, "Established Nineteen Eighty Four" in right midsole.
+More Benefits`,
+  'moreBenefits':
+`"From the city of Akron, Ohio" molded into left midsole, "Established Nineteen Eighty Four" in right midsole.
 Molded, padded collar fits snugly around the ankle.
 Shown: Black/Multi-Color/White
 Style: CQ9283-002`,
@@ -64,10 +65,11 @@ Air Tongue System
 Air units embedded in the tongue provide padding over the top of your foot.
 Grid Traction
 The grid-like pattern on the outsole provides grippy traction in multiple directions. The diamond-shaped cutouts help reduce weight and expose the cushioning inside.
-More Benefits
-"From the city of Akron, Ohio" molded into left midsole, "Established Nineteen Eighty Four" in right midsole.
+More Benefits`,
+'moreBenefits':
+`"From the city of Akron, Ohio" molded into left midsole, "Established Nineteen Eighty Four" in right midsole.
 Molded, padded collar fits snugly around the ankle.
-Shown: Black/Multi-Color/White
+Shown: Multi-Color/Chlorine Blue
 Style: CQ9283-900`,
     'style': 'CQ9283-900',
   },
@@ -100,10 +102,11 @@ Air Tongue System
 Air units embedded in the tongue provide padding over the top of your foot.
 Grid Traction
 The grid-like pattern on the outsole provides grippy traction in multiple directions. The diamond-shaped cutouts help reduce weight and expose the cushioning inside.
-More Benefits
-"From the city of Akron, Ohio" molded into left midsole, "Established Nineteen Eighty Four" in right midsole.
+More Benefits`,
+'moreBenefits':
+`"From the city of Akron, Ohio" molded into left midsole, "Established Nineteen Eighty Four" in right midsole.
 Molded, padded collar fits snugly around the ankle.
-Shown: Black/Multi-Color/White
+Shown: Black/University Red/White
 Style: CQ9283-419`,
     'style': 'CQ9283-419'
   },
@@ -136,10 +139,11 @@ Air Tongue System
 Air units embedded in the tongue provide padding over the top of your foot.
 Grid Traction
 The grid-like pattern on the outsole provides grippy traction in multiple directions. The diamond-shaped cutouts help reduce weight and expose the cushioning inside.
-More Benefits
-"From the city of Akron, Ohio" molded into left midsole, "Established Nineteen Eighty Four" in right midsole.
+More Benefits`,
+  'moreBenefits':
+`"From the city of Akron, Ohio" molded into left midsole, "Established Nineteen Eighty Four" in right midsole.
 Molded, padded collar fits snugly around the ankle.
-Shown: Black/Multi-Color/White
+Shown: Black/Court Purple/White/Metallic Gold
 Style: CQ9283-004`,
     'style': 'CQ9283-004'
   }

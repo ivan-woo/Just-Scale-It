@@ -48,9 +48,9 @@ div {
 li {
     text-align: -webkit-match-parent;
 }
-ol, ul {
+/* ol, ul {
     list-style: none;
-}
+} */
 button {
     -webkit-writing-mode: horizontal-tb !important;
     align-items: flex-start;
@@ -117,6 +117,41 @@ button {
   display: table;
   margin-right: 35px;
   padding-left: 500px;
+}
+
+.highlyRated {
+  cursor: default;
+  font-weight: 500;
+  z-index: 2;
+  height: 50px;
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  line-height: 22px;
+  border-radius: 40px;
+  background: white;
+  margin-top: 40px;
+  margin-left: 30px;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-top: 15px;
+  position: absolute;
+  align-content: center;
+  width: 190px;
+}
+
+.star {
+  display: inline-block;
+}
+
+.starSVG {
+  padding-bottom: 3px;
+}
+
+.highlyRated span {
+  align-content: center;
+  padding-left: 8px;
+  display: inline-block;
+  position: absolute;
 }
 
 .shoeView {
@@ -444,6 +479,7 @@ button {
   box-shadow: 0 3px 3px -3px;
 }
 
+
 .detailsModalContainer {
   -webkit-box-align: center;
   -webkit-box-pack: center;
@@ -463,27 +499,40 @@ button {
 
 .detailsExit {
   position: fixed;
-  top: 4rem;
-  right: 22rem;
+  top: 3rem;
+  right: 24rem;
   font-size: 23px;
   background: transparent;
   outline: none;
   cursor: pointer;
   border: none;
+  transition-property: none;
+  z-index: 3;
 }
 
 .detailsModal {
-  max-width: 1250px;
+  max-width: 1200px;
+  max-height: 92%;
   left: auto;
   right: auto;
-  height: 0;
-  /* -webkit-box-pack: center;
-  justify-content: center; */
   border-radius: 1rem;
-  position: relative;
   background: white;
   padding: 25px;
-  overflow-y: scroll;
+  overflow-y: auto;
+  z-index: 2;
+  overscroll-behavior: contain;
+  animation: 900ms ease 0ms 1 normal forwards running fadeIn, 900ms ease 0ms 1 normal forwards running dropDown;
+  transform: none;
+  transform: translateY(-10px)
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+@keyFrames dropDown {
+  100% { transform: translateY(0px) }
 }
 
 .modalHeader {
@@ -503,6 +552,19 @@ button {
 .detailsModalTitle {
   display: inline-block;
   padding-left: 22px;
+  position: absolute;
+}
+
+.detailsShoeName {
+  font-size: 22px;
+  font-family: "Helvetica Neue";
+  padding-top: 28px;
+}
+
+.detailsShoePrice {
+  font-size: 22px;
+  font-family: "Helvetica Neue";
+  padding-top: 13px;
 }
 
 .detailsModalInfo {
@@ -525,45 +587,70 @@ button {
   margin-bottom: -10px;
 }
 
-.detailsModalInfo *:first-child {
+.detailsModalInfo p:first-of-type {
   margin-top: 14px;
   margin-bottom: 45px;
 }
 
 .detailsModalInfo .regularHeadline {
- line-height: 1.75;
- margin-bottom: 15px;
+  line-height: 1.75;
 }
 
-@media (max-width: 1025px) {
-  .leftSideContainer {
-    flex: 2;
-  }
+.headlineContainer {
+  margin-bottom: -40px;
 }
+
+.moreBenefits {
+  margin-top: 15px;
+  padding-left: 25px;
+}
+
+.moreBenefits li {
+  display: list-item;
+  position: relative;
+  font-family: "Helvetica Neue";
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.preScrim {
+  position: fixed;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
 
 @media only screen and (min-width: 1024px) {
   .mt11-lg {
-      margin-top: 48px;
+    margin-top: 48px;
   }
 }
 @media only screen and (min-width: 1024px) {
   .pr12-lg {
-      padding-right: 69px;
+    padding-right: 69px;
   }
 }
 @media only screen and (min-width: 1024px) {
   .pl11-lg {
-      padding-left: 63px;;
+    padding-left: 63px;;
   }
 }
 @media only screen and (min-width: 1024px) {
   .ml1-lg {
-      margin-left: 4px;
+    margin-left: 4px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .d-lg-ib {
-      display: inline-block;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 1440px) {
+  .leftSideContainer {
+    flex: 2;
   }
 }

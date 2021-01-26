@@ -15,6 +15,7 @@ const shoePictures = new Schema({
   favorite: { type: Boolean, default: false },
   details: String,
   style: String,
+  moreBenefits: String,
 });
 
 const Shoes = mongoose.model('ShoePictures', shoePictures);
