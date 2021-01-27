@@ -521,6 +521,12 @@
   padding-bottom: 10px;
 }
 
+.firstPreScrim {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
 .preScrim {
   position: fixed;
   opacity: 0;

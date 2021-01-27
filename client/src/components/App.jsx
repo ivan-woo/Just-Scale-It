@@ -79,7 +79,10 @@ class App extends React.Component {
     const { shoes, showShoeModal, currShoe, selectedSize, selectedStock, addButtonClicked, favorited, showDetailsModal, modalStyle } = this.state;
     if (showShoeModal) {
       return (
-        <Modal currShoe={currShoe} handleShoeModalView={this.handleShoeModalView} />
+        <div>
+          <div className="firstPresScrim"></div>
+          <Modal currShoe={currShoe} handleShoeModalView={this.handleShoeModalView} />
+        </div>
       );
     }
     return (
