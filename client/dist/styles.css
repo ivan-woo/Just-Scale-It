@@ -10,6 +10,7 @@
 #frontPage {
   display: flex;
   margin: auto;
+  max-width: 1900px;
 }
 
 .leftSideContainer {
