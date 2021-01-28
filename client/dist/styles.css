@@ -10,7 +10,7 @@
 #frontPage {
   display: flex;
   margin: auto;
-  max-width: 1900px;
+  max-width: 1920px;
 }
 
 .leftSideContainer {
@@ -408,8 +408,7 @@
 
 .detailsExit {
   position: fixed;
-  top: 3rem;
-  right: 24rem;
+  right: 0rem;
   font-size: 23px;
   background: transparent;
   outline: none;
@@ -419,20 +418,27 @@
   z-index: 3;
 }
 
-.detailsModal {
+.detailsAnimation {
   max-width: 1200px;
   max-height: 92%;
   left: auto;
   right: auto;
-  border-radius: 1rem;
-  background: white;
-  padding: 25px;
-  overflow-y: auto;
   z-index: 2;
-  overscroll-behavior: contain;
+  overflow-y: hidden;
+  border-radius: 1rem;
   animation: 900ms ease 0ms 1 normal forwards running fadeIn, 900ms ease 0ms 1 normal forwards running dropDown;
   transform: none;
   transform: translateY(-10px)
+}
+
+.detailsModal {
+  height: 100%;
+  border-radius: 1rem;
+  background: white;
+  padding: 25px;
+  overflow-y: scroll;
+  z-index: 2;
+  overscroll-behavior: contain;
 }
 
 @keyframes fadeIn {
@@ -477,6 +483,7 @@
 }
 
 .detailsModalInfo {
+  padding-top: 20px;
   display: block;
   height: 75%;
 }
