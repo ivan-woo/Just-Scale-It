@@ -80,7 +80,7 @@ class App extends React.Component {
     if (showShoeModal) {
       return (
         <div>
-          <div className="firstPresScrim"></div>
+          <div className="scrim"></div>
           <Modal currShoe={currShoe} handleShoeModalView={this.handleShoeModalView} />
         </div>
       );

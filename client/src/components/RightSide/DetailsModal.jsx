@@ -11,8 +11,8 @@ const DetailsModal = (props) => {
     <div className="detailsModalContainer">
       <div className="preScrim" onClick={handleDetailsModalView}></div>
       <div className="detailsAnimation">
-        <div className="detailsModal">
           <button onClick={handleDetailsModalView} className="detailsExit">X</button>
+        <div className="detailsModal">
           <div className="modalHeader">
             <div className="detailsModalImage">
               <img className="detailsImage" src={currShoe.media[0]} alt="image here"></img>

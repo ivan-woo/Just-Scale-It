@@ -86,13 +86,15 @@
 .modal {
   inset: 0px;
   overflow: auto;
-  padding: 60px 0 60px 0;
   position: fixed;
-  z-index: 1000;
+  padding: 55px 0 55px 0;
+  z-index: 100;
+  background-color: white;
 }
 
 .modalSpan {
   scroll-margin: -800px;
+  z-index: 1000;
 }
 
 
@@ -408,7 +410,8 @@
 
 .detailsExit {
   position: fixed;
-  right: 0rem;
+  top: 5rem;
+  right: 25rem;
   font-size: 23px;
   background: transparent;
   outline: none;
@@ -416,19 +419,42 @@
   border: none;
   transition-property: none;
   z-index: 3;
+  transition: none 0s ease 0s;
+  animation-name: fadeIn;
+  animation-duration: 300ms;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
 }
 
 .detailsAnimation {
   max-width: 1200px;
   max-height: 92%;
+  position: fixed;
   left: auto;
   right: auto;
   z-index: 2;
-  overflow-y: hidden;
+  overflow-y: scroll;
   border-radius: 1rem;
-  animation: 900ms ease 0ms 1 normal forwards running fadeIn, 900ms ease 0ms 1 normal forwards running dropDown;
-  transform: none;
-  transform: translateY(-10px)
+  animation-name: overflowY;
+  animation-duration: 0ms;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 3704ms;
+}
+
+@keyframes overflowY {
+  0% { overflow-y: hidden }
+  99% { overflow-y: hidden }
+  100% { overflow-y: auto }
 }
 
 .detailsModal {
@@ -436,9 +462,11 @@
   border-radius: 1rem;
   background: white;
   padding: 25px;
-  overflow-y: scroll;
+  overflow-y: hidden;
   z-index: 2;
   overscroll-behavior: contain;
+  transform: translateY(-10px);
+  animation: 900ms ease 0ms 1 normal forwards running fadeIn, 900ms ease 0ms 1 normal forwards running dropDown;
 }
 
 @keyframes fadeIn {
@@ -486,6 +514,7 @@
   padding-top: 20px;
   display: block;
   height: 75%;
+  overflow: hidden;
 }
 
 .detailsModalInfo p {
@@ -519,6 +548,7 @@
 .moreBenefits {
   margin-top: 15px;
   padding-left: 25px;
+  height: 100%;
 }
 
 .moreBenefits li {
@@ -527,12 +557,6 @@
   font-family: "Helvetica Neue";
   font-size: 22px;
   padding-bottom: 10px;
-}
-
-.firstPreScrim {
-  opacity: 1;
-  width: 100%;
-  height: 100%;
 }
 
 .preScrim {
