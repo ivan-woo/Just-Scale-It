@@ -93,7 +93,7 @@
 }
 
 .modalSpan {
-  scroll-margin: -800px;
+  scroll-margin: -1100px;
   z-index: 1000;
 }
 
@@ -405,12 +405,13 @@
   position: fixed;
   top: 0px;
   width: 100%;
+  z-index: 3;
 }
 
 
 .detailsExit {
   position: fixed;
-  top: 3rem;
+  top: 4rem;
   right: 44rem;
   font-size: 23px;
   background: transparent;
@@ -440,33 +441,33 @@
   left: auto;
   right: auto;
   z-index: 2;
-  overflow-y: scroll;
   border-radius: 1rem;
+  overscroll-behavior: contain;
   animation-name: overflowY;
   animation-duration: 0ms;
   animation-timing-function: ease;
   animation-iteration-count: 1;
   animation-direction: normal;
   animation-fill-mode: forwards;
-  animation-delay: 3704ms;
+  animation-delay: 100ms;
 }
 
-@keyframes overflowY {
-  0% { overflow-y: hidden }
-  99% { overflow-y: hidden }
-  100% { overflow-y: auto }
-}
 
 .detailsModal {
   height: 100%;
   border-radius: 1rem;
   background: white;
   padding: 25px;
-  overflow-y: hidden;
   z-index: 10000000;
   overscroll-behavior: contain;
   transform: translateY(-10px);
   animation: 900ms ease 0ms 1 normal forwards running fadeIn, 900ms ease 0ms 1 normal forwards running dropDown;
+}
+
+@keyframes overflowY {
+  0% { overflow-y: hidden }
+  99% { overflow-y: hidden }
+  100% { overflow-y: auto }
 }
 
 @keyframes fadeIn {
