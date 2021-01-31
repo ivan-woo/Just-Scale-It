@@ -47,7 +47,9 @@ class App extends React.Component {
 
   handleShoeModalView() {
     const { showShoeModal } = this.state;
-    this.setState({ showShoeModal: !showShoeModal });
+    this.setState({ showShoeModal: !showShoeModal }, () => {
+      window.scrollTo(0,0);
+    });
   }
 
   changeColorWay(i) {

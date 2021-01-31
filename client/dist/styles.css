@@ -558,6 +558,7 @@
   font-family: "Helvetica Neue";
   font-size: 22px;
   padding-bottom: 10px;
+  list-style-type: disc;
 }
 
 .preScrim {
