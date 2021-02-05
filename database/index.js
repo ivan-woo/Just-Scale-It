@@ -21,3 +21,4 @@ const shoePictures = new Schema({
 const Shoes = mongoose.model('ShoePictures', shoePictures);
 
 module.exports = Shoes;
+
