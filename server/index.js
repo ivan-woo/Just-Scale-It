@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const path = require('path');
-const db = require('../database2/postgresIndex.js');
+const db2 = require('../database2/postgresIndex.js');
 // const db = require('../database');
 
 const PORT = 3002;
@@ -24,8 +24,8 @@ app.use(express.static(path.join(__dirname, '../client/dist')));
 //     });
 // });
 
-app.get('/api/betternike/products/', (req, res) => {
-  db.query(`select * from products limit 5`, (err, results) => {
+app.get('/api/shoes', (req, res) => {
+  db2.query('SELECT * FROM products limit 10', (err, results) => {
     if (err) {
       res.status(404).send(err)
     } else {
