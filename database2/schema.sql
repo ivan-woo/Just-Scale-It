@@ -39,6 +39,11 @@ FROM '/home/ivan/Documents/hackreactor/hrla41-sdc/FrontPageMedia---Trent/databas
 DELIMITER ','
 CSV HEADER;
 
+COPY products(product_name, details, colorway, price, sizes, stock, media, style, moreBenefits)
+FROM '/home/ec2-user/productData.csv'
+DELIMITER ','
+CSV HEADER;
+
 -- COPY images(image_url, product_id)
 -- FROM '/home/ivan/Documents/hackreactor/hrla41-sdc/FrontPageMedia---Trent/database2/images.csv'
 -- DELIMITER ','

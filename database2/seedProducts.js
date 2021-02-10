@@ -31,7 +31,7 @@ const generateProductData = () => {
       })
     })
     .then(() => {
-      for (var i = 0; i < 5000000; i++) {
+      for (var i = 0; i < 1000000; i++) {
         writer.write({
           product_name: randomizer(names),
           details: commerce.productDescription(),
