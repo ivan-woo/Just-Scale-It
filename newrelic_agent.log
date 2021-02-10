@@ -1,0 +1,420 @@
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":16458,"time":"2021-02-08T18:01:09.226Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":16458,"time":"2021-02-08T18:01:09.386Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":16458,"time":"2021-02-08T18:01:09.501Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":16458,"time":"2021-02-08T18:01:09.501Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":16458,"time":"2021-02-08T18:01:11.682Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":16458,"time":"2021-02-08T18:01:11.682Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BflSFS7xNFU9AC6JbS9RyFlgIXzUAAgBAAAnIQEAAEBKAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":16458,"time":"2021-02-08T18:01:11.682Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":16458,"time":"2021-02-08T18:01:11.683Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":16458,"time":"2021-02-08T18:01:11.686Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":16458,"time":"2021-02-08T18:01:12.687Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":21713,"time":"2021-02-08T18:50:12.419Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":21713,"time":"2021-02-08T18:50:12.518Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":21713,"time":"2021-02-08T18:50:12.594Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":21713,"time":"2021-02-08T18:50:12.594Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":21713,"time":"2021-02-08T18:50:14.253Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":21713,"time":"2021-02-08T18:50:14.254Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BYk1Tsr2IYN3AC6JbS9RyFlgIYhQAAgBAAAnIQEAAFTRAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":21713,"time":"2021-02-08T18:50:14.254Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":21713,"time":"2021-02-08T18:50:14.256Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":21713,"time":"2021-02-08T18:50:14.259Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":21713,"time":"2021-02-08T18:50:15.260Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":22522,"time":"2021-02-08T19:00:29.773Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":22522,"time":"2021-02-08T19:00:29.872Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":22522,"time":"2021-02-08T19:00:29.952Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":22522,"time":"2021-02-08T19:00:29.952Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":22522,"time":"2021-02-08T19:00:31.758Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":22522,"time":"2021-02-08T19:00:31.758Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BT-svRaRFZVgAC6JbS9RyFlgIYqoAAgBAAAnIQEAAFf6AgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":22522,"time":"2021-02-08T19:00:31.758Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":22522,"time":"2021-02-08T19:00:31.760Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":22522,"time":"2021-02-08T19:00:31.764Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":22522,"time":"2021-02-08T19:00:32.765Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":23164,"time":"2021-02-08T19:10:06.337Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":23164,"time":"2021-02-08T19:10:06.436Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":23164,"time":"2021-02-08T19:10:06.517Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":23164,"time":"2021-02-08T19:10:06.517Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":23164,"time":"2021-02-08T19:10:08.285Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":23164,"time":"2021-02-08T19:10:08.285Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BZA7sTf9WUaVAC6JbS9RyFlgIY0AAAgBAAAnIQEAAFp8AgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":23164,"time":"2021-02-08T19:10:08.285Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":23164,"time":"2021-02-08T19:10:08.287Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":23164,"time":"2021-02-08T19:10:08.290Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":23164,"time":"2021-02-08T19:10:09.291Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":24193,"time":"2021-02-08T19:18:25.884Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":24193,"time":"2021-02-08T19:18:25.983Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":24193,"time":"2021-02-08T19:18:26.069Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":24193,"time":"2021-02-08T19:18:26.069Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":24193,"time":"2021-02-08T19:18:28.342Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":24193,"time":"2021-02-08T19:18:28.343Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BVqOUuyVudNEAC6JbS9RyFlgIY7gAAgBAAAnIQEAAF6BAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":24193,"time":"2021-02-08T19:18:28.343Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":24193,"time":"2021-02-08T19:18:28.345Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":24193,"time":"2021-02-08T19:18:28.350Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":24193,"time":"2021-02-08T19:18:29.350Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":25279,"time":"2021-02-08T19:28:04.558Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":25279,"time":"2021-02-08T19:28:04.659Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":25279,"time":"2021-02-08T19:28:04.737Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":25279,"time":"2021-02-08T19:28:04.737Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":25279,"time":"2021-02-08T19:28:06.739Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":25279,"time":"2021-02-08T19:28:06.739Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BQepCo7bj2PwAC6JbS9RyFlgIZE4AAgBAAAnIQEAAGK_AgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":25279,"time":"2021-02-08T19:28:06.739Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":25279,"time":"2021-02-08T19:28:06.743Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":25279,"time":"2021-02-08T19:28:06.746Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":25279,"time":"2021-02-08T19:28:07.748Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":27941,"time":"2021-02-08T19:52:54.164Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":27941,"time":"2021-02-08T19:52:54.272Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":27941,"time":"2021-02-08T19:52:54.369Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":27941,"time":"2021-02-08T19:52:54.370Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":27941,"time":"2021-02-08T19:52:56.256Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":27941,"time":"2021-02-08T19:52:56.256Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BSUdvF3rU-1oAC6JbS9RyFlgIZbYAAgBAAAnIQEAAG0lAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":27941,"time":"2021-02-08T19:52:56.256Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":27941,"time":"2021-02-08T19:52:56.258Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":27941,"time":"2021-02-08T19:52:56.261Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":27941,"time":"2021-02-08T19:52:57.261Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29522,"time":"2021-02-08T20:10:24.261Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29522,"time":"2021-02-08T20:10:24.366Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29522,"time":"2021-02-08T20:10:24.462Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29522,"time":"2021-02-08T20:10:24.462Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29522,"time":"2021-02-08T20:10:26.494Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29522,"time":"2021-02-08T20:10:26.494Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BTz9zEia7yOzAC6JbS9RyFlgIZsQAAgBAAAnIQEAAHNSAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29522,"time":"2021-02-08T20:10:26.494Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29522,"time":"2021-02-08T20:10:26.495Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29522,"time":"2021-02-08T20:10:26.498Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29522,"time":"2021-02-08T20:10:27.499Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29937,"time":"2021-02-08T20:13:53.475Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29937,"time":"2021-02-08T20:13:53.609Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29937,"time":"2021-02-08T20:13:53.723Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29937,"time":"2021-02-08T20:13:53.724Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29937,"time":"2021-02-08T20:13:55.811Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29937,"time":"2021-02-08T20:13:55.812Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BVoNycT_o2vnAC6JbS9RyFlgIZvEAAgBAAAnIQEAAHTxAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29937,"time":"2021-02-08T20:13:55.812Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29937,"time":"2021-02-08T20:13:55.814Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29937,"time":"2021-02-08T20:13:55.818Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":29937,"time":"2021-02-08T20:13:56.819Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43446,"time":"2021-02-08T22:57:39.045Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43446,"time":"2021-02-08T22:57:39.145Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43446,"time":"2021-02-08T22:57:39.215Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43446,"time":"2021-02-08T22:57:39.215Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43446,"time":"2021-02-08T22:57:41.350Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43446,"time":"2021-02-08T22:57:41.351Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BeX6UQTZ118UAC6JbS9RyFlgIcI0AAgBAAAnIQEAAKm2AgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43446,"time":"2021-02-08T22:57:41.351Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43446,"time":"2021-02-08T22:57:41.353Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43446,"time":"2021-02-08T22:57:41.356Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43446,"time":"2021-02-08T22:57:42.357Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43474,"time":"2021-02-08T22:57:44.461Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43474,"time":"2021-02-08T22:57:44.561Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43474,"time":"2021-02-08T22:57:44.631Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43474,"time":"2021-02-08T22:57:44.631Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43474,"time":"2021-02-08T22:57:46.127Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43474,"time":"2021-02-08T22:57:46.128Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BWLmXh-moP-QAC6JbS9RyFlgIcI0AAgBAAAnIQEAAKnSAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43474,"time":"2021-02-08T22:57:46.128Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43474,"time":"2021-02-08T22:57:46.134Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43474,"time":"2021-02-08T22:57:46.140Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":43474,"time":"2021-02-08T22:57:47.142Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":44656,"time":"2021-02-08T23:09:16.656Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":44656,"time":"2021-02-08T23:09:16.749Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":44656,"time":"2021-02-08T23:09:16.818Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":44656,"time":"2021-02-08T23:09:16.818Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":44656,"time":"2021-02-08T23:09:18.525Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":44656,"time":"2021-02-08T23:09:18.525Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BUuD7PLiCbYoAC6JbS9RyFlgIcUEAAgBAAAnIQEAAK5wAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":44656,"time":"2021-02-08T23:09:18.525Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":44656,"time":"2021-02-08T23:09:18.530Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":44656,"time":"2021-02-08T23:09:18.535Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":44656,"time":"2021-02-08T23:09:19.537Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":46956,"time":"2021-02-08T23:31:30.759Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":46956,"time":"2021-02-08T23:31:30.855Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":46956,"time":"2021-02-08T23:31:30.926Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":46956,"time":"2021-02-08T23:31:30.926Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":46956,"time":"2021-02-08T23:31:32.814Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":46956,"time":"2021-02-08T23:31:32.815Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID Bbt8VYqLSxM5AC6JbS9RyFlgIcosAAgBAAAnIQEAALdsAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":46956,"time":"2021-02-08T23:31:32.815Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":46956,"time":"2021-02-08T23:31:32.819Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":46956,"time":"2021-02-08T23:31:32.824Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":46956,"time":"2021-02-08T23:31:33.825Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":50969,"time":"2021-02-08T23:59:50.814Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":50969,"time":"2021-02-08T23:59:50.915Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":50969,"time":"2021-02-08T23:59:50.986Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":50969,"time":"2021-02-08T23:59:50.986Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":50969,"time":"2021-02-08T23:59:53.057Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":50969,"time":"2021-02-08T23:59:53.058Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID Bc_ipfvjjnONAC6JbS9RyFlgIdC8AAgBAAAnIQEAAMcZAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":50969,"time":"2021-02-08T23:59:53.058Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":50969,"time":"2021-02-08T23:59:53.062Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":50969,"time":"2021-02-08T23:59:53.067Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":50969,"time":"2021-02-08T23:59:54.068Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":73325,"time":"2021-02-09T03:02:49.141Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":73325,"time":"2021-02-09T03:02:49.233Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":73325,"time":"2021-02-09T03:02:49.301Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":73325,"time":"2021-02-09T03:02:49.301Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":73325,"time":"2021-02-09T03:02:51.587Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":73325,"time":"2021-02-09T03:02:51.588Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BacSt-u1Ln9NAC6JbS9RyFlgIfugAAgBAAAnIQEAAR5tAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":73325,"time":"2021-02-09T03:02:51.588Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":73325,"time":"2021-02-09T03:02:51.595Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":73325,"time":"2021-02-09T03:02:51.602Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":73325,"time":"2021-02-09T03:02:52.603Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74863,"time":"2021-02-09T03:19:11.235Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74863,"time":"2021-02-09T03:19:11.351Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74863,"time":"2021-02-09T03:19:11.422Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74863,"time":"2021-02-09T03:19:11.422Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74863,"time":"2021-02-09T03:19:13.629Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74863,"time":"2021-02-09T03:19:13.629Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BVqFByLfAocQAC6JbS9RyFlgIf-cAAgBAAAnIQEAASRvAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74863,"time":"2021-02-09T03:19:13.630Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74863,"time":"2021-02-09T03:19:13.633Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74863,"time":"2021-02-09T03:19:13.638Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74863,"time":"2021-02-09T03:19:14.639Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74931,"time":"2021-02-09T03:19:46.244Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74931,"time":"2021-02-09T03:19:46.334Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74931,"time":"2021-02-09T03:19:46.405Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74931,"time":"2021-02-09T03:19:46.405Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74931,"time":"2021-02-09T03:19:47.929Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74931,"time":"2021-02-09T03:19:47.929Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID Bd4JdAnzRTQYAC6JbS9RyFlgIf-cAAgBAAAnIQEAASSzAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74931,"time":"2021-02-09T03:19:47.929Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74931,"time":"2021-02-09T03:19:47.932Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74931,"time":"2021-02-09T03:19:47.937Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74931,"time":"2021-02-09T03:19:48.938Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74989,"time":"2021-02-09T03:20:13.014Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74989,"time":"2021-02-09T03:20:13.108Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74989,"time":"2021-02-09T03:20:13.181Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74989,"time":"2021-02-09T03:20:13.181Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74989,"time":"2021-02-09T03:20:15.462Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74989,"time":"2021-02-09T03:20:15.462Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BbkLCNargqtvAC6JbS9RyFlgIf_YAAgBAAAnIQEAASTtAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74989,"time":"2021-02-09T03:20:15.462Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74989,"time":"2021-02-09T03:20:15.463Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74989,"time":"2021-02-09T03:20:15.465Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":74989,"time":"2021-02-09T03:20:16.466Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":77012,"time":"2021-02-09T03:39:57.232Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":77012,"time":"2021-02-09T03:39:57.349Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":77012,"time":"2021-02-09T03:39:57.432Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":77012,"time":"2021-02-09T03:39:57.432Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":77012,"time":"2021-02-09T03:39:59.384Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":77012,"time":"2021-02-09T03:39:59.384Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BcLMk1-KLy8jAC6JbS9RyFlgIgRMAAgBAAAnIQEAASzUAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":77012,"time":"2021-02-09T03:39:59.384Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":77012,"time":"2021-02-09T03:39:59.386Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":77012,"time":"2021-02-09T03:39:59.390Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":77012,"time":"2021-02-09T03:40:00.391Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79236,"time":"2021-02-09T04:04:48.090Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79236,"time":"2021-02-09T04:04:48.220Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79236,"time":"2021-02-09T04:04:48.305Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79236,"time":"2021-02-09T04:04:48.305Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79236,"time":"2021-02-09T04:04:50.571Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79236,"time":"2021-02-09T04:04:50.571Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID Bb9W0ezbniWPAC6JbS9RyFlgIgooAAgBAAAnIQEAATWEAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79236,"time":"2021-02-09T04:04:50.571Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79236,"time":"2021-02-09T04:04:50.576Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79236,"time":"2021-02-09T04:04:50.585Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79236,"time":"2021-02-09T04:04:51.586Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79633,"time":"2021-02-09T04:06:45.501Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79633,"time":"2021-02-09T04:06:45.628Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79633,"time":"2021-02-09T04:06:45.722Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79633,"time":"2021-02-09T04:06:45.722Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79633,"time":"2021-02-09T04:06:47.398Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79633,"time":"2021-02-09T04:06:47.399Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BRIKLIyCmHSHAC6JbS9RyFlgIgqgAAgBAAAnIQEAATcRAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79633,"time":"2021-02-09T04:06:47.399Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79633,"time":"2021-02-09T04:06:47.404Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79633,"time":"2021-02-09T04:06:47.410Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":79633,"time":"2021-02-09T04:06:48.411Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":81673,"time":"2021-02-09T04:24:49.164Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":81673,"time":"2021-02-09T04:24:49.296Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":81673,"time":"2021-02-09T04:24:49.379Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":81673,"time":"2021-02-09T04:24:49.379Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":81673,"time":"2021-02-09T04:24:51.392Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":81673,"time":"2021-02-09T04:24:51.393Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BXCVauWv_M6nAC6JbS9RyFlgIg7YAAgBAAAnIQEAAT8JAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":81673,"time":"2021-02-09T04:24:51.393Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":81673,"time":"2021-02-09T04:24:51.395Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":81673,"time":"2021-02-09T04:24:51.398Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":81673,"time":"2021-02-09T04:24:52.399Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83465,"time":"2021-02-09T04:37:34.769Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83465,"time":"2021-02-09T04:37:34.867Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83465,"time":"2021-02-09T04:37:34.936Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83465,"time":"2021-02-09T04:37:34.936Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83465,"time":"2021-02-09T04:37:36.890Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83465,"time":"2021-02-09T04:37:36.890Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID Be_0hcKPQStAAC6JbS9RyFlgIhHkAAgBAAAnIQEAAUYJAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83465,"time":"2021-02-09T04:37:36.891Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83465,"time":"2021-02-09T04:37:36.895Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83465,"time":"2021-02-09T04:37:36.900Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83465,"time":"2021-02-09T04:37:37.902Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83658,"time":"2021-02-09T04:40:55.597Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83658,"time":"2021-02-09T04:40:55.692Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83658,"time":"2021-02-09T04:40:55.765Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83658,"time":"2021-02-09T04:40:55.766Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83658,"time":"2021-02-09T04:40:57.981Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83658,"time":"2021-02-09T04:40:57.981Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BZogHqGxvGmFAC6JbS9RyFlgIhKYAAgBAAAnIQEAAUbKAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83658,"time":"2021-02-09T04:40:57.982Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83658,"time":"2021-02-09T04:40:57.986Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83658,"time":"2021-02-09T04:40:57.993Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":83658,"time":"2021-02-09T04:40:58.994Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84187,"time":"2021-02-09T04:43:41.939Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84187,"time":"2021-02-09T04:43:42.032Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84187,"time":"2021-02-09T04:43:42.101Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84187,"time":"2021-02-09T04:43:42.101Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84187,"time":"2021-02-09T04:43:44.303Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84187,"time":"2021-02-09T04:43:44.303Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID Bcn_wjT248byAC6JbS9RyFlgIhNMAAgBAAAnIQEAAUjbAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84187,"time":"2021-02-09T04:43:44.303Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84187,"time":"2021-02-09T04:43:44.306Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84187,"time":"2021-02-09T04:43:44.309Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84187,"time":"2021-02-09T04:43:45.310Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84374,"time":"2021-02-09T04:45:02.218Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84374,"time":"2021-02-09T04:45:02.319Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84374,"time":"2021-02-09T04:45:02.387Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84374,"time":"2021-02-09T04:45:02.387Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84374,"time":"2021-02-09T04:45:05.174Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84374,"time":"2021-02-09T04:45:05.175Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BcCmdeC1JQ01AC6JbS9RyFlgIhPEAAgBAAAnIQEAAUmWAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84374,"time":"2021-02-09T04:45:05.175Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84374,"time":"2021-02-09T04:45:05.177Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84374,"time":"2021-02-09T04:45:05.180Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":84374,"time":"2021-02-09T04:45:06.181Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":85711,"time":"2021-02-09T04:58:48.873Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":85711,"time":"2021-02-09T04:58:48.966Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":85711,"time":"2021-02-09T04:58:49.038Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":85711,"time":"2021-02-09T04:58:49.038Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":85711,"time":"2021-02-09T04:58:51.249Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":85711,"time":"2021-02-09T04:58:51.249Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BRDCZiyCGd5DAC6JbS9RyFlgIhbQAAgBAAAnIQEAAU7PAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":85711,"time":"2021-02-09T04:58:51.250Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":85711,"time":"2021-02-09T04:58:51.255Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":85711,"time":"2021-02-09T04:58:51.264Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":85711,"time":"2021-02-09T04:58:52.265Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86622,"time":"2021-02-09T05:17:54.510Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86622,"time":"2021-02-09T05:17:54.600Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86622,"time":"2021-02-09T05:17:54.669Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86622,"time":"2021-02-09T05:17:54.669Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86622,"time":"2021-02-09T05:17:56.850Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86622,"time":"2021-02-09T05:17:56.850Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID Bb_gvbW05khVAC6JbS9RyFlgIhtEAAgBAAAnIQEAAVJeAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86622,"time":"2021-02-09T05:17:56.851Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86622,"time":"2021-02-09T05:17:56.858Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86622,"time":"2021-02-09T05:17:56.864Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86622,"time":"2021-02-09T05:17:57.865Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86660,"time":"2021-02-09T05:18:07.363Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86660,"time":"2021-02-09T05:18:07.456Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86660,"time":"2021-02-09T05:18:07.526Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86660,"time":"2021-02-09T05:18:07.526Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86660,"time":"2021-02-09T05:18:09.063Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86660,"time":"2021-02-09T05:18:09.064Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID Bcxgs3mN7_ekAC6JbS9RyFlgIhuAAAgBAAAnIQEAAVKEAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86660,"time":"2021-02-09T05:18:09.064Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86660,"time":"2021-02-09T05:18:09.067Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86660,"time":"2021-02-09T05:18:09.070Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86660,"time":"2021-02-09T05:18:10.073Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86972,"time":"2021-02-09T05:21:50.046Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86972,"time":"2021-02-09T05:21:50.140Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86972,"time":"2021-02-09T05:21:50.208Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86972,"time":"2021-02-09T05:21:50.208Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86972,"time":"2021-02-09T05:21:52.068Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86972,"time":"2021-02-09T05:21:52.069Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BR1Dz5bQ96_OAC6JbS9RyFlgIhw0AAgBAAAnIQEAAVO8AgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86972,"time":"2021-02-09T05:21:52.069Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86972,"time":"2021-02-09T05:21:52.074Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86972,"time":"2021-02-09T05:21:52.077Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":86972,"time":"2021-02-09T05:21:53.078Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":87031,"time":"2021-02-09T05:22:08.812Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":87031,"time":"2021-02-09T05:22:08.905Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":87031,"time":"2021-02-09T05:22:08.979Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":87031,"time":"2021-02-09T05:22:08.979Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":87031,"time":"2021-02-09T05:22:10.421Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":87031,"time":"2021-02-09T05:22:10.422Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BZwwAzu40921AC6JbS9RyFlgIhxwAAgBAAAnIQEAAVP3AgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":87031,"time":"2021-02-09T05:22:10.422Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":87031,"time":"2021-02-09T05:22:10.426Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":87031,"time":"2021-02-09T05:22:10.433Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":87031,"time":"2021-02-09T05:22:11.435Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89114,"time":"2021-02-09T05:40:26.042Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89114,"time":"2021-02-09T05:40:26.147Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89114,"time":"2021-02-09T05:40:26.219Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89114,"time":"2021-02-09T05:40:26.219Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89114,"time":"2021-02-09T05:40:28.403Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89114,"time":"2021-02-09T05:40:28.403Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID Bdrz7RCzZQe9AC6JbS9RyFlgIiCoAAgBAAAnIQEAAVwaAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89114,"time":"2021-02-09T05:40:28.403Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89114,"time":"2021-02-09T05:40:28.405Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89114,"time":"2021-02-09T05:40:28.406Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89114,"time":"2021-02-09T05:40:29.407Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89241,"time":"2021-02-09T05:42:07.614Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89241,"time":"2021-02-09T05:42:07.709Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89241,"time":"2021-02-09T05:42:07.779Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89241,"time":"2021-02-09T05:42:07.779Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89241,"time":"2021-02-09T05:42:09.476Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89241,"time":"2021-02-09T05:42:09.476Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BXME7sHInDtNAC6JbS9RyFlgIiEgAAgBAAAnIQEAAVyZAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89241,"time":"2021-02-09T05:42:09.476Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89241,"time":"2021-02-09T05:42:09.480Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89241,"time":"2021-02-09T05:42:09.486Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":89241,"time":"2021-02-09T05:42:10.488Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90191,"time":"2021-02-09T05:47:07.725Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90191,"time":"2021-02-09T05:47:07.815Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90191,"time":"2021-02-09T05:47:07.885Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90191,"time":"2021-02-09T05:47:07.885Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90191,"time":"2021-02-09T05:47:10.059Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90191,"time":"2021-02-09T05:47:10.059Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BRS3SJCaI3AnAC6JbS9RyFlgIiJMAAgBAAAnIQEAAWBPAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90191,"time":"2021-02-09T05:47:10.059Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90191,"time":"2021-02-09T05:47:10.060Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90191,"time":"2021-02-09T05:47:10.062Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90191,"time":"2021-02-09T05:47:11.063Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90357,"time":"2021-02-09T05:49:05.442Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90357,"time":"2021-02-09T05:49:05.535Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90357,"time":"2021-02-09T05:49:05.606Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90357,"time":"2021-02-09T05:49:05.606Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90357,"time":"2021-02-09T05:49:07.548Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90357,"time":"2021-02-09T05:49:07.548Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BczX9h3pibBeAC6JbS9RyFlgIiLEAAgBAAAnIQEAAWD1AgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90357,"time":"2021-02-09T05:49:07.549Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90357,"time":"2021-02-09T05:49:07.553Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90357,"time":"2021-02-09T05:49:07.558Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":90357,"time":"2021-02-09T05:49:08.560Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":93954,"time":"2021-02-09T06:29:21.898Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":93954,"time":"2021-02-09T06:29:22.038Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":93954,"time":"2021-02-09T06:29:22.107Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":93954,"time":"2021-02-09T06:29:22.107Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":93954,"time":"2021-02-09T06:29:24.124Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":93954,"time":"2021-02-09T06:29:24.124Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BUl3f1-D59NAAC6JbS9RyFlgIiwkAAgBAAAnIQEAAW8CAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":93954,"time":"2021-02-09T06:29:24.124Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":93954,"time":"2021-02-09T06:29:24.127Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":93954,"time":"2021-02-09T06:29:24.129Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":93954,"time":"2021-02-09T06:29:25.130Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":95556,"time":"2021-02-09T06:45:16.539Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":95556,"time":"2021-02-09T06:45:16.680Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":95556,"time":"2021-02-09T06:45:16.771Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":95556,"time":"2021-02-09T06:45:16.771Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":95556,"time":"2021-02-09T06:45:18.771Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":95556,"time":"2021-02-09T06:45:18.771Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BaGWUh6130eRAC6JbS9RyFlgIi_kAAgBAAAnIQEAAXVEAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":95556,"time":"2021-02-09T06:45:18.771Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":95556,"time":"2021-02-09T06:45:18.775Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":95556,"time":"2021-02-09T06:45:18.781Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":95556,"time":"2021-02-09T06:45:19.782Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":297941,"time":"2021-02-09T06:52:48.276Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":297941,"time":"2021-02-09T06:52:48.366Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":297941,"time":"2021-02-09T06:52:48.434Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":297941,"time":"2021-02-09T06:52:48.434Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":297941,"time":"2021-02-09T06:52:50.720Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":297941,"time":"2021-02-09T06:52:50.721Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BXshI1jv2jj6AC6JbS9RyFlgIjGIAAgBAAAnIQEABIvVAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":297941,"time":"2021-02-09T06:52:50.721Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":297941,"time":"2021-02-09T06:52:50.726Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":297941,"time":"2021-02-09T06:52:50.728Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":297941,"time":"2021-02-09T06:52:51.728Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300769,"time":"2021-02-09T07:11:23.734Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300769,"time":"2021-02-09T07:11:23.827Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300769,"time":"2021-02-09T07:11:23.897Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300769,"time":"2021-02-09T07:11:23.897Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300769,"time":"2021-02-09T07:11:26.084Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300769,"time":"2021-02-09T07:11:26.085Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BVFyzPGK9dfrAC6JbS9RyFlgIjX8AAgBAAAnIQEABJbhAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300769,"time":"2021-02-09T07:11:26.085Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300769,"time":"2021-02-09T07:11:26.088Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300769,"time":"2021-02-09T07:11:26.093Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300769,"time":"2021-02-09T07:11:27.095Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300856,"time":"2021-02-09T07:11:44.511Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300856,"time":"2021-02-09T07:11:44.599Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300856,"time":"2021-02-09T07:11:44.668Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300856,"time":"2021-02-09T07:11:44.668Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300856,"time":"2021-02-09T07:11:51.192Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300856,"time":"2021-02-09T07:11:51.192Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID Baukn9rLFY6PAC6JbS9RyFlgIjX8AAgBAAAnIQEABJc4AgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300856,"time":"2021-02-09T07:11:51.192Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300856,"time":"2021-02-09T07:11:51.194Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300856,"time":"2021-02-09T07:11:51.197Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":300856,"time":"2021-02-09T07:11:52.197Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":34544,"time":"2021-02-09T17:22:41.411Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":34544,"time":"2021-02-09T17:22:41.552Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":34544,"time":"2021-02-09T17:22:41.626Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":34544,"time":"2021-02-09T17:22:41.626Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":34544,"time":"2021-02-09T17:22:43.597Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":34544,"time":"2021-02-09T17:22:43.597Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BfvnOmvF20R2AC6JbS9RyFlgIsUwAAgBAAAnIQEAAIbwAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":34544,"time":"2021-02-09T17:22:43.597Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":34544,"time":"2021-02-09T17:22:43.600Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":34544,"time":"2021-02-09T17:22:43.604Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":34544,"time":"2021-02-09T17:22:44.605Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":39778,"time":"2021-02-09T18:05:26.381Z","msg":"Using New Relic for Node.js. Agent version: 7.1.1; Node version: v10.23.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":39778,"time":"2021-02-09T18:05:26.479Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":39778,"time":"2021-02-09T18:05:26.549Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":39778,"time":"2021-02-09T18:05:26.549Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":39778,"time":"2021-02-09T18:05:28.580Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":39778,"time":"2021-02-09T18:05:28.580Z","msg":"Connected to collector-004.newrelic.com:443 with agent run ID BQRJnkTmwkcgAC6JbS9RyFlgIs9EAAgBAAAnIQEAAJtiAgQvUchXAwAFNy4xLjEAC2l2YW4tdWJ1bnR1AAluaWtlX2RhdGE.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":39778,"time":"2021-02-09T18:05:28.580Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3049837/applications/793888855","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":39778,"time":"2021-02-09T18:05:28.581Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":39778,"time":"2021-02-09T18:05:28.584Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ivan-ubuntu","pid":39778,"time":"2021-02-09T18:05:29.585Z","msg":"Starting initial 1000ms harvest."}

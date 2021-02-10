@@ -1,17 +1,15 @@
+require('newrelic');
 const express = require('express');
 const bodyParser = require('body-parser');
-const morgan = require('morgan');
+
 const path = require('path');
 const db2 = require('../database2/postgresIndex.js');
-// const db = require('../database');
 
 const PORT = 3002;
 
 const app = express();
 
 app.use(bodyParser.json());
-app.use(morgan('dev'));
-
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
 // app.get('/api/shoes', (req, res) => {
@@ -25,7 +23,7 @@ app.use(express.static(path.join(__dirname, '../client/dist')));
 // });
 
 app.get('/api/shoes', (req, res) => {
-  db2.query('SELECT * FROM products limit 10', (err, results) => {
+  db2.query('SELECT * FROM products WHERE product_id > 9000000 limit 7', (err, results) => {
     if (err) {
       res.status(404).send(err)
     } else {
