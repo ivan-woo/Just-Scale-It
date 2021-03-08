@@ -3,10 +3,10 @@ const { Pool } = require('pg');
 // pools will use environment variables
 // for connection information
 const pool = new Pool({
-  user: 'ivan',
-  host: '52.8.61.126',
-  database: 'nikedb',
-  password: 'psql123!',
+  user: 'Your PostgreSQL Username',
+  host: 'Your IP Address or localhost',
+  database: 'Your PostgreSQL database name',
+  password: 'Your Password',
   port: 5432
 })
 
