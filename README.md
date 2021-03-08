@@ -10,7 +10,7 @@ Nike System Design was an app with inherited legacy code of Nike's Main Product 
 2. In database2/postgresIndex.js, change the input fields to your PostgreSQL credentials.
 3. Run `node database2/seedProduct.js`. **WARNING** This script will generate 10 million records in a CSV file within the database2 folder.
 4. Within your PostgreSQL database, create your table with this command using:
-   ```
+  ```
    CREATE TABLE products(
     product_id SERIAL PRIMARY KEY,
     product_name varchar(100),
@@ -25,11 +25,11 @@ Nike System Design was an app with inherited legacy code of Nike's Main Product 
     stock INTEGER[]
   );
   ```
-5. Run this command to seed your database from the CSV file
-```
-COPY products(product_name, details, colorway, price, sizes, stock, media, style, moreBenefits)
-FROM 'pathToCSVfile'
-DELIMITER ','
-CSV HEADER;
-```
+5. Run this command to seed your database from the CSV file:
+    ```
+    COPY products(product_name, details, colorway, price, sizes, stock, media, style, moreBenefits)
+    FROM 'pathToCSVfile'
+    DELIMITER ','
+    CSV HEADER;
+    ```
 6. Run `npm start` to start your server. Server will be listening on Port 3002.
