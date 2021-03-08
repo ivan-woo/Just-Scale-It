@@ -21,9 +21,3 @@ export default function () {
   sleep(1);
 }
 
-// to get response time for an individual request
-// export default function () {
-//   var res = http.get('http://localhost:3002/api/shoes');
-//   sleep(1);
-//   console.log('Response time was ' + String(res.timings.duration) + ' ms');
-// }

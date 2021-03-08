@@ -31,7 +31,7 @@ const generateProductData = () => {
       })
     })
     .then(() => {
-      for (var i = 0; i < 1000000; i++) {
+      for (var i = 0; i < 10000000; i++) {
         writer.write({
           product_name: randomizer(names),
           details: commerce.productDescription(),
@@ -54,6 +54,3 @@ const generateProductData = () => {
 
 generateProductData();
 
-// sizes: [8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13],
-//           stock: [randomStock(), randomStock(), randomStock(), randomStock(), randomStock(), randomStock(), randomStock(), randomStock(), randomStock(), randomStock(), randomStock()],
-//           media: [randomizer(images), randomizer(images), randomizer(images), randomizer(images)],

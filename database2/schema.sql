@@ -15,25 +15,6 @@ CREATE TABLE products(
 );
 
 
--- CREATE TABLE images (
---   image_id SERIAL PRIMARY KEY,
---   image_url TEXT not null,
---   product_id INTEGER not null,
---   CONSTRAINT fk_products
---     FOREIGN KEY(product_id)
---       REFERENCES products(product_id)
--- );
-
--- CREATE TABLE sizes_stock (
---   size_id SERIAL PRIMARY KEY,
---   size INTEGER not null,
---   stock INTEGER not null,
---   product_id INTEGER not null,
---   CONSTRAINT fk_products
---     FOREIGN KEY(product_id)
---       REFERENCES products(product_id)
--- );
-
 COPY products(product_name, details, colorway, price, sizes, stock, media, style, moreBenefits)
 FROM '/home/ivan/Documents/hackreactor/hrla41-sdc/FrontPageMedia---Trent/database2/productData.csv'
 DELIMITER ','
@@ -44,8 +25,5 @@ FROM '/home/ec2-user/productData.csv'
 DELIMITER ','
 CSV HEADER;
 
--- COPY images(image_url, product_id)
--- FROM '/home/ivan/Documents/hackreactor/hrla41-sdc/FrontPageMedia---Trent/database2/images.csv'
--- DELIMITER ','
--- CSV HEADER;
+
 
