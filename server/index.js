@@ -1,5 +1,5 @@
-require('newrelic');
-const morgan = require('morgan');
+
+//const morgan = require('morgan');
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
@@ -9,7 +9,7 @@ const PORT = 3002;
 
 const app = express();
 
-app.use(morgan('dev'));
+//app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
@@ -24,8 +24,8 @@ app.get('/api/shoes', (req, res) => {
   })
 });
 
-app.get('/loaderio-684fa0e8bcd71cfa3709c7876f62eadf/', (req, res) => {
-  res.status(200).send('loaderio-684fa0e8bcd71cfa3709c7876f62eadf')
+app.get('/loaderio-ea4fbd5b237dc45e16b72ab59632a9b2/', (req, res) => {
+  res.status(200).send('loaderio-ea4fbd5b237dc45e16b72ab59632a9b2')
 });
 
 app.listen(PORT, () => {
